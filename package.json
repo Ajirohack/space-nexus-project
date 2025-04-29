@@ -1,0 +1,28 @@
+{
+  "name": "space-wh",
+  "version": "0.1.0",
+  "description": "Clean build implementation of the Space project with modern AI agent frameworks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/openai": "^0.0.10",
+    "axios": "^1.6.2",
+    "crewai": "^0.1.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "faiss-node": "^0.5.1",
+    "langchain": "^0.0.170",
+    "langgraph": "^0.0.19",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
